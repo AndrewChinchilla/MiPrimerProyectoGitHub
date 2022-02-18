@@ -53,9 +53,9 @@ namespace MiPrimerProyectoGitHub
             Console.WriteLine("\tEJERCICIO 3 - OPERACIONES - ");
             Console.WriteLine("\n");
             Console.WriteLine("\n\tPor favor ingrese un primer numero entero largo a operar : ");
-            numl1=long.Parse(Console.ReadLine());
+            numero1=long.Parse(Console.ReadLine());
             Console.WriteLine("\n\tPor favor ingrese un segundo numero entero largo a operar : ");
-            numl2 = long.Parse(Console.ReadLine());
+            numero2 = long.Parse(Console.ReadLine());
             Console.WriteLine("\n");
             Console.WriteLine("\n");
             Osuma = (long)(numero1 + numero2);
