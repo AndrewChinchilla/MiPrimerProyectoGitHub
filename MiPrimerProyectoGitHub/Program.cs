@@ -49,7 +49,7 @@ namespace MiPrimerProyectoGitHub
 
             //Ejercicio 3
 
-            long numl1, numl2,Osuma,Oresta,Oproducto;
+            long numero1, numero2,Osuma,Oresta,Oproducto;
             Console.WriteLine("\tEJERCICIO 3 - OPERACIONES - ");
             Console.WriteLine("\n");
             Console.WriteLine("\n\tPor favor ingrese un primer numero entero largo a operar : ");
@@ -58,9 +58,9 @@ namespace MiPrimerProyectoGitHub
             numl2 = long.Parse(Console.ReadLine());
             Console.WriteLine("\n");
             Console.WriteLine("\n");
-            Osuma = (long)(numl1 + numl2);
-            Oresta = (long)(numl1 - numl2);
-            Oproducto = (long)(numl1 * numl2);
+            Osuma = (long)(numero1 + numero2);
+            Oresta = (long)(numero1 - numero2);
+            Oproducto = (long)(numero1 * numero2);
             Console.WriteLine("\tResultados:");
             Console.WriteLine("\n");
             Console.WriteLine("\n\tEl resultado de la suma es:   ->"+Osuma);
